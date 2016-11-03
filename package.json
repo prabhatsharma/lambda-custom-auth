@@ -1,0 +1,24 @@
+{
+  "name": "cauth",
+  "version": "1.0.0",
+  "description": "Federated OAuth helper for serverless applications",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha handler.test.js"
+  },
+  "keywords": [
+    "serverless",
+    "oauth",
+    "authentication",
+    "google",
+    "facebook",
+    "microsoft",
+    "aws",
+    "lambda"
+  ],
+  "author": "Prabhat Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.78.0"
+  }
+}
